@@ -1,0 +1,42 @@
+.join {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.join > h2 {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.join > input {
+  margin-top: 30px;
+  padding: 15px 50px;
+  background-color: #383535;
+  color: #fff;
+  width: 300px;
+  font-size: 1.3rem;
+  border: none;
+  text-align: center;
+  outline: none;
+  border-radius: 10px;
+}
+
+.join > button {
+  margin-top: 20px;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  background-color: #383535;
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.join > button:hover {
+  background-color: #a059fa;
+  color: #383535;
+}

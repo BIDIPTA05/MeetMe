@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.signIn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  /* border: 1px solid white; */
+}
+
+.signIn__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  /* border: 1px solid white; */
+}
+.signIn__top > img {
+  width: 100%;
+  object-fit: contain;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.signIn__top h3,
+h5 {
+  margin-top: 10px;
+  color: #9747ff;
+}
+
+.signIn__bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid white; */
+}
+
+.signIn__bottom > button {
+  margin-bottom: 40px;
+  padding: 15px 40px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: #9747ff;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.signIn__bottom > footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signIn__bottom > footer > a {
+  text-decoration: none;
+  color: #9747ff;
+  font-weight: 800;
+  font-size: 1.4rem;
+  font-family: "Comforter", cursive;
+}
+
+.signIn__bottom > footer > a:hover {
+  text-decoration: underline;
+}

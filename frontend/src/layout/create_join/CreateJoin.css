@@ -1,0 +1,42 @@
+.options {
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.createJoin {
+  display: flex;
+  flex-direction: column;
+}
+
+.createJoin > h1 {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 6vmin;
+  text-align: center;
+}
+
+.createJoin__btnCollection {
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.createBtn,
+.joinBtn {
+  padding: 15px 40px;
+  background-color: #5986fa;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.joinBtn {
+  margin-left: 20px;
+  background-color: #504e4e;
+}

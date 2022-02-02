@@ -1,0 +1,98 @@
+.create {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  padding: 10px;
+  overflow: hidden;
+  height: 55vh;
+  margin-bottom: 100px;
+}
+.generate {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.generate > input,
+.maxAllot > .maxAllot__set > input {
+  margin-top: 30px;
+  padding: 15px 50px;
+  background-color: #383535;
+  color: #fff;
+  min-width: 120px;
+  width: 320px;
+  font-size: 1.3rem;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.copyContainer {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.generate > button,
+.maxAllot__set > button {
+  margin-top: 20px;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  background-color: #383535;
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.generate > button:hover {
+  color: #383535;
+  background-color: #59fa86;
+}
+
+.create > .info {
+  margin: 40px 0;
+  color: #fc337c;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.maxAllot {
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.maxAllot > h4 {
+  color: #fff;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.maxAllot > .maxAllot__set > input {
+  width: 120px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.maxAllot__set > button:hover {
+  background-color: #5986fa;
+}
+
+.create > p {
+  margin-top: 10px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  font-size: 0.95rem;
+}
+.create > p > span {
+  color: #fc337c;
+}
