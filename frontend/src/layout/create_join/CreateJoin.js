@@ -4,7 +4,6 @@ import Footer from '../../components/footer/Footer';
 import Join from '../../components/join/Join';
 import './CreateJoin.css'
 const CreateJoin = ({ username }) => {
-    // console.log(username);
     const [create, setCreate] = useState(false);
     const handleCreate = () => {
         setCreate(true);

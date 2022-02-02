@@ -8,7 +8,7 @@ const Join = ({ username }) => {
     const handleJoin = () => {
         if (code.length === 8) {
             console.log("Joined : ", code);
-            window.location.assign(`http://localhost:5000/${code}&${username}`);
+            window.location.assign(`https://meetmerooms.herokuapp.com/${code}&${username}`);
         } else {
             alert('Code Is Invalid, Check the Code or Create New')
             setCode('')
