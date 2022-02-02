@@ -20,7 +20,6 @@ const App = () => {
       }
       else if (user) {
         setUsername(user.displayName);
-        // console.log(user);
         navigate('/createorjoin');
       }
       else {

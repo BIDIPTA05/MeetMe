@@ -21,7 +21,7 @@ const leaveMeet = document.querySelector('.leave__meeting--btn');
 const roomLimitControl = document.querySelector('.room__limit__control');
 // leave meeting functionality
 leaveMeet.addEventListener('click', () => {
-    window.location.assign(`http://localhost:3000/createorjoin`);
+    window.location.assign(`https://meet-me-990d5.web.app/createorjoin`);
 })
 
 // Room limit PopUp Modal
@@ -201,7 +201,7 @@ const addVideoStream = (video, stream) => {
 // redirect to create / join page
 socket.on('redirect', () => {
     peer.destroy();
-    window.location.assign(`http://localhost:3000/logout`);
+    window.location.assign(`https://meet-me-990d5.web.app/logout`);
 })
 
 

@@ -6,7 +6,7 @@
   justify-content: center;
   padding: 10px;
   overflow: hidden;
-  height: 55vh;
+  min-height: 55vh;
   margin-bottom: 100px;
 }
 .generate {
@@ -51,6 +51,15 @@
   cursor: pointer;
 }
 
+.generate > button {
+  margin-top: 30px;
+}
+
+.maxAllot__set > button {
+  padding: 15px 25px;
+  margin-top: 20px;
+}
+
 .generate > button:hover {
   color: #383535;
   background-color: #59fa86;
@@ -76,10 +85,15 @@
   text-align: center;
   font-size: 1.3rem;
 }
+.maxAllot > .maxAllot__set {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .maxAllot > .maxAllot__set > input {
   width: 120px;
   margin-left: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .maxAllot__set > button:hover {

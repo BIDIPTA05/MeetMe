@@ -6,10 +6,9 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   position: relative;
   overflow: hidden;
-  /* border: 1px solid white; */
 }
 
 .signIn__top {
@@ -18,7 +17,6 @@
   justify-content: center;
   align-items: center;
   font-family: "Poppins", sans-serif;
-  /* border: 1px solid white; */
 }
 .signIn__top > img {
   width: 100%;
@@ -31,6 +29,8 @@
 h5 {
   margin-top: 10px;
   color: #9747ff;
+  padding: 10px;
+  text-align: center;
 }
 
 .signIn__bottom {
@@ -38,7 +38,6 @@ h5 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* border: 1px solid white; */
 }
 
 .signIn__bottom > button {
