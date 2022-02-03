@@ -1,10 +1,9 @@
-const moment = require('moment');
-
+const moment = require('moment-timezone');
 const formatMessage = (username, text) => {
     return {
         username,
         text,
-        time: moment().format('LTS')
+        time: moment().tz("Asia/Kolkata").format('h:mm a')
     }
 
 }
